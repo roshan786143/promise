@@ -39,7 +39,7 @@ const main = async(post)=>{
 
 main({title : "post three", body : "My third post"})
 .then(()=>{
-    console.log("Both operations done successfully.");
+    console.log("Both operations Done successfully.");
 })
 .catch(()=>{
 console.log("Neither of the two failed to execute.");
