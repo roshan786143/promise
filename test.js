@@ -37,7 +37,7 @@ const main = async(post)=>{
     getPost();
 }
 
-main({title : "post three", body : "My third post"})
+main({title : "post three", body : "My third post."})
 .then(()=>{
     console.log("Both operations Done successfully.");
 })
